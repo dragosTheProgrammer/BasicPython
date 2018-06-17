@@ -1,4 +1,4 @@
-__author__ = 'robrat'
+__author__ = 'me'
 
 BEGIN = """
 <!DOCTYPE html>
@@ -39,11 +39,8 @@ END = """
 f = open("table.html", 'w')
 f.write(BEGIN)
 f.write(CAPAT_TABEL.format("nume", "activitate"))
-f.write(INTRARE_TABEL.format("Puiu Florin", "EMB internal optimisations - Phase 1"))
-f.write(INTRARE_TABEL.format("Puiu Florin", "EMB internal optimisations - Phase 1"))
-f.write(INTRARE_TABEL.format("Ilie, Albert Victor Florin", "I like pizza"))
-f.write(INTRARE_TABEL.format("Puiu Florin", "EMB internal optimisations - Phase 1"))
-f.write(INTRARE_TABEL.format("asdsadsadsa", "asdsa"))
+f.write(INTRARE_TABEL.format("asdsadsadsa, "asdsadsadsa"))
+
 
 
 f.close()
